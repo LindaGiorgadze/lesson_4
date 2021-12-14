@@ -1,0 +1,115 @@
+
+.innerDivs {
+	background-color: red;
+	color: white;
+	margin-right: 30px;
+}
+.firstDiv {
+	display: none;
+}
+.secondDiv {
+	width: 400px;
+	display: inline;
+}
+.thirdDiv {
+	width: 400px;
+	display: inline-block;
+}
+.forthDiv {
+	width: 100px;
+	display: block;
+}
+
+span {
+	background-color: black;
+	color: red;
+	font-size: 20px;
+	padding: 10px;
+	display: inline-block;
+}
+.container {
+	width: 70%;
+}
+.navigation {
+	display: inline-block;
+	margin-right: 20px;
+	border-right: 2px solid black;
+	padding-right: 20px;
+}
+
+.articles {
+	display: inline-block;
+	width: 300px;
+}
+.articles img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+.articles p {
+	color: beige;
+	background-color: black;
+}
+.articles p::selection {
+	background-color: red;
+	color: white;
+}
+.articles p::first-letter {
+	color: red;
+	text-transform: capitalize;
+}
+.articles p::first-line {
+	text-transform: uppercase;
+}
+
+.testAfter {
+	background-color: greenyellow;
+	display: inline-block;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+.testAfter::after {
+	content: '';
+	width: 2px;
+	height: 15px;
+	background-color: red;
+	display: inline-block;
+}
+.testAfter::before {
+	content: '';
+	width: 2px;
+	height: 15px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.articles:hover {
+	/*width: 400px;*/
+	transform: scale(2);
+}
+nav li {
+	color: black;
+}
+a {
+	color: black;
+}
+a:focus {
+	color: green;
+}
+a:hover {
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
